@@ -1,0 +1,11 @@
+server:
+    port: 8081
+security:
+  oauth2:
+    client:
+      clientId: demotest
+      clientSecret: demotest
+    resource:
+      token-info-uri: http://localhost:8080/oauth/check_token
+      id: demotest
+  
